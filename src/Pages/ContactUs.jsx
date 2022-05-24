@@ -32,11 +32,11 @@ const ContactUs = () => {
                   <h1>Visit us also at:</h1>
                 </div>
                 <div>
-                  <a target="_blank" href="#">
+                  <a target="_blank" href="https://twitter.com/Trackoncanada">
                     <i className="fa-brands fa-twitter"></i>
                   </a>
 
-                  <a target="_blank" href=" #">
+                  <a target="_blank" href=" https://medium.com/@trackoncanada">
                     <i className="fa-brands fa-medium"></i>
                   </a>
                 </div>
