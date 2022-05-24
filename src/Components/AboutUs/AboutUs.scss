@@ -1,0 +1,66 @@
+.AboutUsContainer{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .AboutLeft{
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h2{
+            transform: rotate(-90deg);
+        }
+
+    }
+    .AboutMid{
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 5rem;
+    }
+    .AboutRight{
+        min-height: 70vh;
+        background-color: #0066B0;
+    }
+}
+@media screen and (max-width : 990px) {
+    .AboutUsContainer{
+        width: 100%;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+        
+        .AboutLeft{
+            min-height: 20vh !important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            h2{
+                transform: rotate(0deg);
+            }
+    
+        }
+        .AboutMid{
+            min-height: 70vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 5rem;
+            background-color: #0066B0 ;
+            color: white;
+            padding: 0 2rem;
+        }
+        .AboutRight{
+            display: none;
+            min-height: 70vh;
+            background-color: #0066B0;
+        }
+    }
+    
+}
